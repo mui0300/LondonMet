@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photography Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;700&family=Cormorant+Garamond:wght@400;700&display=swap" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+ 
+</head>
+<body>
+ 
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="images/logo.png" alt="Logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact Us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#packages">Packages</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#wedding">Wedding Photography</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#event">Event Photography</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#portraits">Portraits</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#products">Product Photography</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero">
+         <!-- <video class="hero-video" autoplay muted loop>
+            <source src="images/vid.mp4" type="video/mp4">
+        </video> -->
+        <div class="hero-content">
+            <div class="container">
+                <h1>Capturing the Vibes, Freezing the Cool
+                </h1>
+                <h2>
+                    Unlocking Imagination, One Shot At A Time
+                </h2>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-us">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-4">
+                    <img src="images/award1.jpg" alt="Award-winning Image 1" class="img-fluid rounded shadow">
+                </div>
+                <div class="col-md-4 text-center">
+                    <h2>About Us</h2>
+                    <p>
+                        Welcome to our photography business! With years of experience, passion, and creativity, 
+                        we specialize in capturing life’s most precious moments, ensuring that your memories are 
+                        preserved beautifully. 
+                        <br><br>
+                        We are proud recipients of a national photography award for a stunning image captured in Pakistan. 
+                        Having won the Silver and Bronze medals in the All Pakistan Photo Competition in consecutive years, 
+                        we continue to bring our expertise and artistic vision to clients worldwide. Now based in the UK, 
+                        we help you tell your story, one frame at a time.
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <img src="images/award2.jpg" alt="Award-winning Image 2" class="img-fluid rounded shadow">
+                </div>
+            </div>
+        </div>
+    </section>
+       
+        <section id="packages" class="packages py-5">
+            <div class="container">
+                <h2 class="text-center text-light mb-5">Our Packages</h2>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="package-card text-center p-4">
+                            <h3 class="package-title">Basic Package</h3>
+                            <p class="package-price">$500</p>
+                            <ul class="package-details">
+                                <li>3 Hours of Coverage</li>
+                                <li>30 Edited Photos</li>
+                                <li>1 Photographer</li>
+                                <li></li>
+                            </ul>
+                            <button class="btn btn-light mt-3" onclick="location.href='#contact'">Book Now</button>
+
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="package-card text-center p-4">
+                            <h3 class="package-title">Standard Package</h3>
+                            <p class="package-price">$899</p>
+                            <ul class="package-details">
+                                <li>6 Hours of Coverage</li>
+                                <li>100 Edited Photos</li>
+                                <li>Online Gallery & USB Drive</li>
+                                <li>1 Photographers</li>
+                                <li>1 videographer with edited video</li>
+                            </ul>
+                            <button class="btn btn-light mt-3" onclick="location.href='#contact'">Book Now</button>
+
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="package-card text-center p-4">
+                            <h3 class="package-title">Premium Package</h3>
+                            <p class="package-price">$1999</p>
+                            <ul class="package-details">
+                                <li>8 hours Coverage</li>
+                                <li>200 edited Photos</li>
+                                <li>2 digital albums</li>
+                                <li>2 videographers with highlight and full edited video</li>
+                                <li>2 Photographers</li>
+                            </ul>
+                            <button class="btn btn-light mt-3" onclick="location.href='#contact'">Book Now</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="gallery" class="gallery-section py-5">
+    <div class="container text-center">
+        <h2 class="display-4 mb-4" style="margin-top: 50px; font-weight: bold;">Our Gallery</h2>
+        <p class="lead" style="font-weight: bold;">Our gallery portrays our work in different areas of photography. From weddings to portraits, events, and products, we capture the essence of each moment.</p>
+    </div>
+</section>
+
+<section id="wedding" class="section py-5">
+    <div class="container text-center">
+        <h2 class="display-4 mb-4 text-light">Wedding Photography</h2>
+        <div class="row">
+            <div class="col-md-3">
+                <a href="images/wedding1.jpg" target="_blank">
+                    <img src="images/wedding1.jpg" alt="Wedding Photo 1" class="img-fluid rounded shadow">
+                </a>
+            </div>
+            <div class="col-md-3">
+                <a href="images/wedding2.jpg" target="_blank">
+                    <img src="images/wedding2.jpg" alt="Wedding Photo 2" class="img-fluid rounded shadow">
+                </a>
+            </div>
+            <div class="col-md-3">
+                <a href="images/wedding3.jpg" target="_blank">
+                    <img src="images/wedding3.jpg" alt="Wedding Photo 3" class="img-fluid rounded shadow">
+                </a>
+            </div>
+            <div class="col-md-3">
+                <a href="images/wedding4.jpg" target="_blank">
+                    <img src="images/wedding4.jpg" alt="Wedding Photo 4" class="img-fluid rounded shadow">
+                </a>
+            </div>
+            <div class="col-md-3">
+                <a href="images/wedding5.jpg" target="_blank">
+                    <img src="images/wedding5.jpg" alt="Wedding Photo 5" class="img-fluid rounded shadow">
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="portraits" class="section py-5" style="background-color: #333;">
+    <div class="container text-center">
+        <h2 class="display-4 mb-4 text-light">Portraits</h2>
+        <div class="row">
+            <div class="col-md-3">
+                <a href="images/portrait1.jpg" target="_blank">
+                    <img src="images/portrait1.jpg" alt="Portrait 1" class="img-fluid rounded shadow">
+                </a>
+            </div>
+            <div class="col-md-3">
+                <a href="images/portrait2.jpg" target="_blank">
+                    <img src="images/portrait2.jpg" alt="Portrait 2" class="img-fluid rounded shadow">
+                </a>
+            </div>
+            <div class="col-md-3">
+                <a href="images/portrait3.jpg" target="_blank">
+                    <img src="images/portrait3.jpg" alt="Portrait 3" class="img-fluid rounded shadow">
+                </a>
+            </div>
+            <div class="col-md-3">
+                <a href="images/portrait4.jpg" target="_blank">
+                    <img src="images/portrait4.jpg" alt="Portrait 4" class="img-fluid rounded shadow">
+                </a>
+            </div>
+            <div class="col-md-3">
+                <a href="images/portrait5.jpg" target="_blank">
+                    <img src="images/portrait5.jpg" alt="Portrait 5" class="img-fluid rounded shadow">
+                </a>
+            </div>
+            <div class="col-md-3">
+                <a href="images/portrait6.jpg" target="_blank">
+                    <img src="images/portrait6.jpg" alt="Portrait 6" class="img-fluid rounded shadow">
+                </a>
+            </div>
+            <div class="col-md-3">
+                <a href="images/portrait7.jpg" target="_blank">
+                    <img src="images/portrait7.jpg" alt="Portrait 7" class="img-fluid rounded shadow">
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="event" class="section py-5">
+    <div class="container text-center">
+        <h2 class="display-4 mb-4 text-light">Event Photography</h2>
+        <div class="row">
+            <div class="col-md-3">
+                <a href="images/event1.jpg" target="_blank">
+                    <img src="images/event1.jpg" alt="Event Photo 1" class="img-fluid rounded shadow">
+                </a>
+            </div>
+            <div class="col-md-3">
+                <a href="images/event2.jpg" target="_blank">
+                    <img src="images/event2.jpg" alt="Event Photo 2" class="img-fluid rounded shadow">
+                </a>
+            </div>
+            <div class="col-md-3">
+                <a href="images/event3.jpg" target="_blank">
+                    <img src="images/event3.jpg" alt="Event Photo 3" class="img-fluid rounded shadow">
+                </a>
+            </div>
+            <div class="col-md-3">
+                <a href="images/event4.jpg" target="_blank">
+                    <img src="images/event4.jpg" alt="Event Photo 4" class="img-fluid rounded shadow">
+                </a>
+            </div>
+            <div class="col-md-3">
+                <a href="images/event5.jpg" target="_blank">
+                    <img src="images/event5.jpg" alt="Event Photo 5" class="img-fluid rounded shadow">
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="products" class="section py-5" style="background-color: #222;">
+    <div class="container text-center">
+        <h2 class="display-4 mb-4 text-light">Product Photography</h2>
+        <div class="row">
+            <div class="col-md-3">
+                <a href="images/product1.jpg" target="_blank">
+                    <img src="images/product1.jpg" alt="Product Photo 1" class="img-fluid rounded shadow">
+                </a>
+            </div>
+            <div class="col-md-3">
+                <a href="images/product2.jpg" target="_blank">
+                    <img src="images/product2.jpg" alt="Product Photo 2" class="img-fluid rounded shadow">
+                </a>
+            </div>
+            <div class="col-md-3">
+                <a href="images/product5.jpg" target="_blank">
+                    <img src="images/product5.jpg" alt="Product Photo 3" class="img-fluid rounded shadow">
+                </a>
+            </div>
+            <div class="col-md-3">
+                <a href="images/product4.jpg" target="_blank">
+                    <img src="images/product4.jpg" alt="Product Photo 4" class="img-fluid rounded shadow">
+                </a>
+            </div>
+            <div class="col-md-3">
+                <a href="images/product6.jpg" target="_blank">
+                    <img src="images/product6.jpg" alt="Product Photo 5" class="img-fluid rounded shadow">
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+    
+<section id="contact" class="contact-section py-5" style="background-color: #1a1a1a; color: #fff;">
+    <div class="container">
+        <h2 class="display-4 mb-4 text-light text-center">Contact Us</h2>
+        <p class="lead text-center">We'd love to hear from you! Fill out the form below to get in touch.</p>
+
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <form action="#" method="POST" class="contact-form">
+                    <div class="form-group mb-3">
+                        <label for="name" class="form-label text-light">Your Name</label>
+                        <input type="text" id="name" name="name" class="form-control" placeholder="Enter your name" required>
+                    </div>
+
+                    <div class="form-group mb-3">
+                        <label for="email" class="form-label text-light">Your Email</label>
+                        <input type="email" id="email" name="email" class="form-control" placeholder="Enter your email" required>
+                    </div>
+
+                    <div class="form-group mb-3">
+                        <label for="message" class="form-label text-light">Your Message</label>
+                        <textarea id="message" name="message" class="form-control" rows="5" placeholder="Type your message here" required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-light mt-3 text-center">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+        <footer class="footer py-4" style="background-color: #282828; color: #fff;">
+            <div class="container text-center">
+                <div class="social-links mb-3">
+                    <a href="https://www.facebook.com/aspnf" target="_blank" class="social-icon">
+                        <img src="images/facebook-icon.jpg" alt="Facebook" class="img-fluid">
+                    </a>
+                    <a href="https://www.instagram.com/fnpsa/" target="_blank" class="social-icon">
+                        <img src="images/instagram-icon.jpg" alt="Instagram" class="img-fluid">
+                    </a>
+                    <a href="mailto:aamirikram88@gmail.com" class="social-icon">
+                        <img src="images/email-icon.png" alt="Email" class="img-fluid">
+                    </a>
+                    <a href="tel:+44 7853 160396" class="social-icon">
+                        <img src="images/phone-icon.jpg" alt="Phone" class="img-fluid">
+                    </a>
+                </div>
+        
+                <div class="contact-info mb-3">
+                    <p><a href="mailto:sample@example.com" class="text-light">aamirikram88@gmail.com</a></p>
+                    <p><a href="tel:+1234567890" class="text-light">+44 7853 160396</a></p>
+                </div>
+        
+                <p>&copy; 2024 Amir Sheikh Photography. All rights reserved.</p>
+            </div>
+        </footer>
+        
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
